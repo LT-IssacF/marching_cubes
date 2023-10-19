@@ -23,7 +23,7 @@ elseif(CMAKE_BUILD_TYPE STREQUAL Release)
 endif()
 
 install(FILES ${SOURCES} DESTINATION src)
-set(HEADS include/marching_cubes.cuh include/types.cuh include/extra_arrays.h include/helper_cuda.h include/helper_string.h)
+set(HEADS include/marching_cubes.cuh include/types.cuh include/extra_arrays.cuh include/helper_cuda.h include/helper_string.h)
 install(FILES ${HEADS} DESTINATION include)
 install(FILES CMakeLists.txt DESTINATION .)
 
