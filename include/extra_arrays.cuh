@@ -1,5 +1,5 @@
-#ifndef EXTRA_ARRAY_H
-#define EXTRA_ARRAY_H
+#ifndef EXTRA_ARRAY_CUH
+#define EXTRA_ARRAY_CUH
 // https://paulbourke.net/geometry/polygonise/
 
 // 12 edges corresponding 8 vertices
